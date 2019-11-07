@@ -4,6 +4,8 @@ $(function() {
 		$('.navbar').toggleClass('navbar--show');
 	});
 
+	// Slider
+
 	$('.main-carousel').owlCarousel({
 		loop: true,
 		items: 1,
@@ -14,6 +16,8 @@ $(function() {
 		autoplay: true,
     autoplayTimeout: 3000
 	});
+
+	///////////////////////////////////
 
 	// Feedback
 

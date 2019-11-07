@@ -60,10 +60,10 @@
 
 				<div class="container header__top-container">
 
-					<div class="logo header__logo">
-						<img src="img/logo/logo.png" alt="logo" class="logo__image">
+					<a href="/" class="logo header__logo">
+						<img src="img/logo/logo.png" alt="logo" title="Логотип" class="logo__image">
 						<h3 class="logo__title">Домашний переезд</h3>
-					</div>
+					</a>
 
 					<div class="header__contacts contacts">
 						<div class="contacts__block">
@@ -98,8 +98,27 @@
 				<div class="container header__bottom-container">
 					<nav class="navbar header__navbar">
 						<ul class="navbar__list">
-							<li><a class="navbar__about-company" href="#">О компании</a></li>
-							<li><a class="navbar__services" href="#">Услуги</a></li>
+							<li>
+								<a class="navbar__about-company" href="#">О компании</a>
+								<div class="navbar__menu-popup menu-popup__company">
+									<ul>
+										<li><a href="">Реквизиты</a></li>
+										<li><a href="">Шаблоны договора</a></li>
+										<li><a href="">Политика конфиденциальности</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a class="navbar__services" href="#">Услуги</a>
+								<div class="navbar__menu-popup menu-popup__services">
+									<ul>
+										<li><a href="">Домашние переезды</a></li>
+										<li><a href="">Офисные переезды</a></li>
+										<li><a href="">Дачные переезды</a></li>
+										<li><a href="">Грузоперевозки по России</a></li>
+									</ul>
+								</div>
+							</li>
 							<li><a href="#">Калькулятор</a></li>
 							<li><a href="/price.html">Прайс</a></li>
 							<li><a href="#">Контакты</a></li>
@@ -137,7 +156,7 @@
 					<div class="services__composition">
 						<h2 class="section__title services__title">Наши услуги</h2>
 						<div class="services__image-block">
-							<img src="img/content/map.png" alt="map" class="services__main-image">
+							<img src="img/content/map.png" alt="map" title="Карта" class="services__main-image">
 							<div class="services__image-mark">
 								<span>Грузоперевозки по России</span>
 							</div>
@@ -147,19 +166,19 @@
 					<div class="services__items">
 						<div class="services__item">
 							<div class="services__item-block">
-								<img src="img/content/content_image_1.jpg" alt="content_image_1" class="services__item-image">
+								<img src="img/content/content_image_1.jpg" alt="content_image_1" title="Контентное изображение" class="services__item-image">
 								<div class="services__item-mark">
 									<span>Квартирный переезд</span>
 								</div>
 							</div>
 							<div class="services__item-block">
-								<img src="img/content/content_image_2.jpg" alt="content_image_2" class="services__item-image">
+								<img src="img/content/content_image_2.jpg" alt="content_image_2" title="Контентное изображение" class="services__item-image">
 								<div class="services__item-mark">
 									<span>Офисный переезд</span>
 								</div>
 							</div>
 							<div class="services__item-block">
-								<img src="img/content/content_image_3.jpg" alt="content_image_3" class="services__item-image">
+								<img src="img/content/content_image_3.jpg" alt="content_image_3" title="Контентное изображение" class="services__item-image">
 								<div class="services__item-mark">
 									<span>Дачный переезд</span>
 								</div>
@@ -270,7 +289,7 @@
 								<div class="carpark__item-features">Газель 3м, 1,5тн, 12м3</div>
 							</div>
 							<div class="carpark__item-image">
-								<img src="img/carpark/carpark_1.jpg" alt="car_1">
+								<img src="img/carpark/carpark_1.jpg" title="Габариты"  alt="car_1">
 							</div>
 						</div>
 						<div class="carpark__item">
@@ -279,7 +298,7 @@
 								<div class="carpark__item-features">Грузовик, 3,5м, 3,5 тн, 15м3</div>
 							</div>
 							<div class="carpark__item-image">
-								<img src="img/carpark/carpark_2.jpg" alt="car_2">
+								<img src="img/carpark/carpark_2.jpg" title="Габариты"  alt="car_2">
 							</div>
 						</div>
 						<div class="carpark__item">
@@ -288,7 +307,7 @@
 								<div class="carpark__item-features">Грузовик, 6м, 10 тн, 34 м3</div>
 							</div>
 							<div class="carpark__item-image">
-								<img src="img/carpark/carpark_3.jpg" alt="car_3">
+								<img src="img/carpark/carpark_3.jpg" title="Габариты"  alt="car_3">
 							</div>
 						</div>
 						<div class="carpark__item">
@@ -297,7 +316,7 @@
 								<div class="carpark__item-features">Евро тент, 13,6м, 20 тн, 86 м3</div>
 							</div>
 							<div class="carpark__item-image">
-								<img src="img/carpark/carpark_4.jpg" alt="car_4">
+								<img src="img/carpark/carpark_4.jpg" title="Габариты"  alt="car_4">
 							</div>
 						</div>
 					</div>
