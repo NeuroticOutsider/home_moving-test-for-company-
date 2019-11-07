@@ -15,6 +15,34 @@ $(function() {
     autoplayTimeout: 3000
 	});
 
+	// Feedback
+
+	$('.button__feedback').click(function() {
+		$('.ishome').addClass('dark-bg');
+		$('.feedback').addClass('feedback-show');
+	});
+
+	$('.feedback__close').click(function() {
+		$('.ishome').removeClass('dark-bg');
+		$('.feedback').removeClass('feedback-show');
+	});
+
+	//////////////////////////////////////////////
+
+	// Request
+
+	$('.button__request').click(function() {
+		$('.ishome').addClass('dark-bg');
+		$('.request').addClass('request-show');
+	});
+
+	$('.request__close').click(function() {
+		$('.ishome').removeClass('dark-bg');
+		$('.request').removeClass('request-show');
+	});
+
+	//////////////////////////////////////////////
+
 	// Tabs
 
 	var wrap = $('.tabs__wrapper'),
